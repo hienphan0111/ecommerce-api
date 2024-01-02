@@ -1,14 +1,13 @@
 package main
 
 import (
-	"log"
-
 	"github.com/gin-gonic/gin"
 	"github.com/hienphan0111/ecommerce-api/controllers"
 	"github.com/hienphan0111/ecommerce-api/database"
 	"github.com/hienphan0111/ecommerce-api/middleware"
 	"github.com/hienphan0111/ecommerce-api/routes"
 
+	"log"
 	"os"
 )
 
